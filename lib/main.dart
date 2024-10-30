@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter_Menu',
+      title: 'Flutter_Latihan_Menu',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
@@ -47,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
           child: _currentIndex == 0
               ? Text(
                   'Dashboard',
-                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 24),
                 )
               : Container(),
         ),
